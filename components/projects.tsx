@@ -19,15 +19,15 @@ export default function Projects() {
         transition={{ delay: 5 }}
         className="flex w-full justify-center"
         >
-          (Hint: Click Image for Project)
+          (Hint: Click Card for Project)
       </motion.p>
-      <div>
-        {projectsData.map((project, index) => (
-          <React.Fragment key={index}>
-            <Project {...project} />
-          </React.Fragment>
-        ))}
-      </div>
+        <div>
+          {projectsData.map((project, index) => (
+            <React.Fragment key={index}>
+                <Project {...project} />
+            </React.Fragment>
+          ))}
+        </div>
     </section>
   );
 }

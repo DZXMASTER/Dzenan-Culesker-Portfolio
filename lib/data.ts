@@ -1,10 +1,6 @@
 import React from "react";
-//import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-//import corpcommentImg from "@/public/corpcomment.png";
-//import rmtdevImg from "@/public/rmtdev.png";
-//import wordanalyticsImg from "@/public/wordanalytics.png";
 import pokedexImg from "@/public/pokedex.png"
 
 export const links = [
@@ -60,6 +56,7 @@ export const projectsData = [
       "Front-End developer for this project. Users can input pokemon names from all pokemon and be able to see the attributes of the selected pokemon in the original pokedex design.",
     tags: ["React", "Next.js", "Typescript", "Tailwind", "FramerMotion"],
     imageUrl: pokedexImg,
+    url: "https://pokedex-og.vercel.app/",
   },
 ] as const;
 

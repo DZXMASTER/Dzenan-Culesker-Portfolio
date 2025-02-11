@@ -29,7 +29,7 @@ export default function About() {
             <span className="font-medium">
             React, Next.js, TypeScript, JavaScript, Python, C, and more 
             </span>
-            {" "}{"(on my resume)"} as of now as I'm constantly learning new technologies. I am also familiar with Java and GitHub. I am currently looking for a{" "}
+            {" "}{"(on my resume)"} as of now as I'm constantly learning new technologies. I am also familiar with Java and Apollo Client. I am currently looking for a{" "}
             <span className="font-medium">full-time position</span> as a software
             developer.
         </p>

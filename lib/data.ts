@@ -1,7 +1,9 @@
 import React from "react";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import pokedexImg from "@/public/pokedex.png"
+import pokedexImg from "@/public/pokedex.png";
+import bookTrackerImg from "@/public/bookTrackerPic.png";
+import theRoyalBlogImg from "@/public/theRoyalBlog.png";
 
 export const links = [
   {
@@ -53,10 +55,26 @@ export const projectsData = [
   {
     title: "Pokedex",
     description:
-      "Front-End developer for this project. Users can input pokemon names from all pokemon and be able to see the attributes of the selected pokemon in the original pokedex design.",
+      "Lead developer for this project. Users can search from all pokemon and be able to view their data in the original pokedex design.",
     tags: ["React", "Next.js", "Typescript", "Tailwind", "FramerMotion"],
     imageUrl: pokedexImg,
     url: "https://pokedex-og.vercel.app/",
+  },
+  {
+    title: "Book Tracker",
+    description:
+      "Lead developer for this project. Users can list which books they want to read/are reading/have read in a modern & sleek layout.",
+    tags: ["React", "Typescript", "Tailwind", "Firebase"],
+    imageUrl: bookTrackerImg,
+    url: "https://book-tracker-plum.vercel.app/",
+  },
+  {
+    title: "The Royal Blog",
+    description:
+      "Lead developer for this project. Users can input their deepest thoughts and desires (or a random shower thought) in a medieval-themed layout.",
+    tags: ["React", "Typescript", "Tailwind", "Firebase", "Google Authentication"],
+    imageUrl: theRoyalBlogImg,
+    url: "https://the-royal-blog.vercel.app/",
   },
 ] as const;
 
@@ -77,5 +95,8 @@ export const skillsData = [
   "JQuery",
   "SASS",
   "Bootstrap",
-  "Java"
+  "Java",
+  "Figma",
+  "Firebase",
+  "Apollo Client"
 ] as const;
